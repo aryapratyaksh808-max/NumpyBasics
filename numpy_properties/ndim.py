@@ -1,0 +1,10 @@
+import numpy as np
+arr1D = np.array([1,2,3])
+arr2D = np.array([[2,3,1],[1,2,3]])
+arr3D  = np.array([[[1,2],[21,12]],[[31,13],[14,41]]])
+arr5d = np.full((1,1,1,1,1),1)
+print(arr1D.ndim)
+print(arr2D.ndim)
+print(arr3D.ndim)
+print(arr5d.ndim)
+print(arr5d)

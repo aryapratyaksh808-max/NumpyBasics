@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([1,2,3,4,5,6,7,8])
+reshaped_arr = arr.reshape(4,2)
+re = arr.reshape(2,4)
+rep = arr.reshape(1,8)
+repi = arr.reshape(8,1)
+print(reshaped_arr)
+print(re)
+print(rep)
+print(repi)

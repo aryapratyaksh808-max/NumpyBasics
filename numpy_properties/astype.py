@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([0,1.2,32.1])
+int_arr = arr.astype(int)
+str_arr  = arr.astype(str)
+bool_arr = arr.astype(bool)
+print(int_arr)
+print(int_arr.dtype)     
+print(str_arr.dtype)
+print(bool_arr.astype)
+print(bool_arr)
